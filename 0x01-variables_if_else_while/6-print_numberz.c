@@ -2,7 +2,7 @@
 
 
 /**
- * main - prints the lowercase alphabet in reverse, followed by a new line
+ * main - Entry point
  *
  * Return: Always 0.
  *
@@ -10,11 +10,10 @@
 
 int main(void)
 {
-	char letter;
+	int num;
 
-	for (letter = 'z'; letter >= 'a'; letter--)
-
-	putchar(letter);
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
 
 	putchar('\n');
 
