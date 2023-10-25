@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef main.h
+#define main.h
 
 void _puts_recursion(char *s);
 int _putchar(char c);
